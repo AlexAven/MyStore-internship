@@ -1,0 +1,12 @@
+html {
+  font-size: var(--fs-sm);
+  color: var(--colors-text-main);
+  background-color: var(--colors-bg-main);
+}
+
+body {
+  margin: 0;
+  font-family: var(--family);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-md);
+}

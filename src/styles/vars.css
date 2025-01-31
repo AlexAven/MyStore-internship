@@ -1,0 +1,31 @@
+:root {
+  /* Типографика */
+  --family: 'Inter', sans-serif;
+  --line-height: 20px;
+  --fs-xsm: 8px;
+  --fs-sm: 10px;
+  --fs-sm-md: 12px;
+  --fs-md: 16px;
+  --fs-md-lg: 24px;
+  --fs-lg: 48px;
+  --fs-xlg: 56px;
+
+  --fw-light: 300;
+  --fw-regular: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  /* Цвета */
+
+  /* Текст */
+  --colors-text-main: #FFFFFF;
+  --colors-text-alt: rgba(255, 255, 255, 0.4);
+
+  /* Интерфейс */
+  --colors-bg-main: #4B5258;
+  --colors-ui: rgba(255, 255, 255, 0.04);
+  --colors-ui-borders: rgba(255, 255, 255, 0.131);
+ 
+  /* Другое */
+  --radii: 1rem;
+}

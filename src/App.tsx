@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import Layout from './components/Layout';
+import UsersListPage from './pages/UsersListPage';
+import { UserProvider } from './context/UserContext';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-
-    </>
-  )
+    <Layout>
+      <UserProvider>
+        <UsersListPage />
+      </UserProvider>
+    </Layout>
+  );
 }
 
-export default App
+export default App;
