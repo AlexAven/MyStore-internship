@@ -4,7 +4,7 @@
 
 ## Описание
 Одностраничное приложение загружающее список пользователей и количество их дел.
-Получение данных осуществляется с помощью API `jsonplaceholder.typicode.com/`
+Получение данных осуществляется с помощью API `jsonplaceholder.typicode.com/`.
 - https://jsonplaceholder.typicode.com/todos — для получения списка заданий.
 - https://jsonplaceholder.typicode.com/users — для получения списка пользователей.
 
